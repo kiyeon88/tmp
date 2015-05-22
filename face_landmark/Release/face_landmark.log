@@ -1,0 +1,18 @@
+﻿Build started 2015-05-21 오후 5:49:05.
+     1>Project "C:\Users\kiyeonj\references\dlib-18.15\face_detect\face_landmark\face_landmark.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\kiyeonj\references\opencv-2410\build\include" /I"C:\Users\kiyeonj\references\dlib-18.15\dlib\.." /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt face_landmark_detection_ex.cpp
+         face_landmark_detection_ex.cpp
+     1>c:\users\kiyeonj\references\dlib-18.15\dlib\matrix\../general_hash/random_hashing.h(685): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\users\kiyeonj\references\dlib-18.15\dlib\image_transforms/morphological_operations.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>face_landmark_detection_ex.cpp(167): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kiyeonj\references\dlib-18.15\face_detect\Release\face_landmark.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\kiyeonj\references\dlib-18.15\face_detect\Release" /LIBPATH:"C:\Users\kiyeonj\references\opencv-249\build\x86\vc12\lib" dlib.lib opencv_core249.lib opencv_imgproc249.lib opencv_highgui249.lib opencv_objdetect249.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kiyeonj\references\dlib-18.15\face_detect\Release\face_landmark.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kiyeonj\references\dlib-18.15\face_detect\Release\face_landmark.lib" /MACHINE:X86 /SAFESEH Release\face_landmark_detection_ex.obj
+         Generating code
+         Finished generating code
+         face_landmark.vcxproj -> C:\Users\kiyeonj\references\dlib-18.15\face_detect\Release\face_landmark.exe
+     1>Done Building Project "C:\Users\kiyeonj\references\dlib-18.15\face_detect\face_landmark\face_landmark.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.89
